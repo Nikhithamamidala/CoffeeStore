@@ -1,39 +1,71 @@
-{% extends 'base.html' %}
-
-{% block title %}
-Home
-{% endblock %}
-
-{% block content %}
-
-<h2 class="text-center mb-4">Buy Your Favorite Coffee ☕</h2>
-
-<div class="row">
-
-    <div class="col-md-4">
-
-        <div class="card shadow">
-
-            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600"
-                 class="card-img-top"
-                 alt="Coffee">
-
-            <div class="card-body">
-
-                <h4>Cappuccino</h4>
-
-                <h5>₹199</h5>
-
-                <a href="{% url 'payment' %}" class="btn btn-success">
-                 Buy Now
-                </a>
-
-            </div>
-
+\<!-- Coffee 2 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600" class="card-img-top" alt="Espresso">
+        <div class="card-body text-center">
+            <h4>Espresso</h4>
+            <h5>₹149</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
         </div>
-
     </div>
-
 </div>
 
-{% endblock %}
+<!-- Coffee 3 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" class="card-img-top" alt="Latte">
+        <div class="card-body text-center">
+            <h4>Latte</h4>
+            <h5>₹179</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+<!-- Coffee 4 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600" class="card-img-top" alt="Mocha">
+        <div class="card-body text-center">
+            <h4>Mocha</h4>
+            <h5>₹229</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+<!-- Coffee 5 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600" class="card-img-top" alt="Americano">
+        <div class="card-body text-center">
+            <h4>Americano</h4>
+            <h5>₹169</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+<!-- Coffee 6 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff?w=600" class="card-img-top" alt="Cold Coffee">
+        <div class="card-body text-center">
+            <h4>Cold Coffee</h4>
+            <h5>₹249</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+<!-- Coffee 7 -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1494314671902-399b18174975?w=600" class="card-img-top" alt="Macchiato">
+        <div class="card-body text-center">
+            <h4>Macchiato</h4>
+            <h5>₹199</h5>
+            <a href="{% url 'payment' %}" class="btn btn-success w-100">Buy Now</a>
+        </div>
+    </div>
+</div>
